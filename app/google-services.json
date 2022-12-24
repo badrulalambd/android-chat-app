@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "750878856579",
+    "project_id": "my-chat-e8f3a",
+    "storage_bucket": "my-chat-e8f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750878856579:android:586b72a2777d2c91ac12b6",
+        "android_client_info": {
+          "package_name": "com.badrulacademy.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750878856579-k8jnmkt6aj0jglq7imos0r0ckaj9rdum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badrulacademy.mychat",
+            "certificate_hash": "b5cb8ce242e02471bae3bc914c7ea2b068b69729"
+          }
+        },
+        {
+          "client_id": "750878856579-k088cmcvnc2c8imgm0e4ua5h79l6dkkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJoxDCyV0_nWA27R-gw8s7vMr8NCzKrTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750878856579-k088cmcvnc2c8imgm0e4ua5h79l6dkkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OtpAuthentication">
+
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chat_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewHeading_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the OTP which you received"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/raleway"
+        android:padding="20dp"
+        android:textColor="#6e6e6e"
+        android:layout_below="@id/logo_id"
+        />
+
+    <EditText
+        android:id="@+id/getOTP_id"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewHeading_id"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:hint="Enter the OTP...."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/changeNumber_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Didn't Receive? Change your number"
+        android:layout_below="@id/getOTP_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/verifyOtp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/changeNumber_id"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="verify OTP"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:paddingRight="40dp"
+        android:background="#25d366"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progressBarOfOtpAuth_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/verifyOtp_id"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>
