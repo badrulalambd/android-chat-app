@@ -1,6 +1,6 @@
 # android-chat-app
 ## Technology: Java, Firebase, MVVM architecture
-Using this app we can chate with each other on live. Communication is only in text format.
+Using this app we can chat with each other on live. Communication is only in text format.
 
 
 ![Screenshot_2_ITO](https://user-images.githubusercontent.com/105268491/209846241-8c62b558-919b-44b3-943e-cf4a79c78b6c.png)
