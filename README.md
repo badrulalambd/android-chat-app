@@ -3,10 +3,6 @@
 Using this app we can chate with each other on live. Communication is only in text format.
 
 
-
-![Screenshot_1_SendOtp](https://user-images.githubusercontent.com/105268491/209846218-d94fc453-cb9f-43f7-9118-f9bd30d5025a.png)
-
-
 ![Screenshot_2_ITO](https://user-images.githubusercontent.com/105268491/209846241-8c62b558-919b-44b3-943e-cf4a79c78b6c.png)
 
 
